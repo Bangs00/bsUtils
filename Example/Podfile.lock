@@ -1,0 +1,16 @@
+PODS:
+  - bsUtils (0.1.0)
+
+DEPENDENCIES:
+  - bsUtils (from `../`)
+
+EXTERNAL SOURCES:
+  bsUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  bsUtils: fb9c966a5a70dd0ae95ff894e0a1951162070c36
+
+PODFILE CHECKSUM: 4c5e642fa789dd60134960a03a370a79dde9401b
+
+COCOAPODS: 1.10.1
