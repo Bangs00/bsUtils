@@ -39,7 +39,7 @@ class FirstViewController: UIViewController {
 extension FirstViewController {
     func setLayout() {
         // Set Thumbnail Image
-        bsUtils.downloadImage(for: "https://user-images.githubusercontent.com/65712275/122560687-d94a1d80-d07b-11eb-8f1f-168f7145994d.png", defaultImage: UIImage(named: "DefaultImage")) { image in
+        bsUtils.downloadImage(for: "https://user-images.githubusercontent.com/65712275/122930687-28a78b00-d3a7-11eb-9603-a3302c9bc8d8.png", defaultImage: UIImage(named: "DefaultImage")) { image in
             self.thumbnailImageView.image = image
         }
         
